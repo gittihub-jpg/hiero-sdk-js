@@ -19,7 +19,7 @@ tasks:
 
     install:submodules:
         vars:
-            commit: "5c7b188962dd56ea9246ff4647fbb63db989046e"
+            commit: "a48c7b5c57334fe020f82c54d05a363a9a4d997d" # v0.73.0-chunkify-preview-alpha.2
         cmds:
             - git submodule update --init --recursive --remote
             - |
